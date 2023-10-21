@@ -1,0 +1,13 @@
+@echo off
+CLS
+
+SET HOST=%1
+
+IF "%HOST%" EQU "" EXIT
+
+:Start
+
+PING -n 1 %HOST% | FIND /i "TTL" > NUL
+IF %ERRORLEVEL% NEQ 0 TITLE Waiting && GOTO :Start
+
+START MSTSC /V:%HOST% /F /ADMIN
