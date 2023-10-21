@@ -19,4 +19,4 @@ If the ping succeeds, there no beep (hurray)
 
 ## rd.cmd
 
-This waits for a remote desktop host to come online then connects to it on the /admin session with fullscreen
+This waits for a remote desktop host to come online then connects to it on the /admin session with fullscreen. e.g. 'rd.cmd 192.168.1.1', or e.g. 'rd.cmd server.domainname.com'
