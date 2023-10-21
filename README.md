@@ -11,7 +11,9 @@ display that it has failed:
 
 ![image](https://github.com/danhxnk/Win-Remote-Script-Tools/assets/41693275/7446fe81-8c9e-4ccf-a89a-abe6fb3d02d3)
 
+
 If the ping succeeds, there no beep (hurray)
+
 ![image](https://github.com/danhxnk/Win-Remote-Script-Tools/assets/41693275/7baecc25-d613-41e2-8553-9f192af9fd93)
 
 
